@@ -1,0 +1,53 @@
+user:
+userid
+username
+password
+email
+date
+
+Admin:
+adminid
+userid
+ 
+Client: 
+clientid
+userid
+firstname
+lastname
+address
+
+Agent:
+agentid
+userid
+firstname (only visible to agent and admin)
+lastname
+date of birth (only visible to agent and admin)
+id number (if applicable)
+Gender
+Address
+phone number
+Educational background
+status
+points
+hours
+
+
+Tasks:
+taskid
+agentid
+agentidlist (list..)
+title
+description (and instructions)
+attachments (list..)
+weight (task weight)
+date
+Status
+//timelines for task completion. 
+
+
+
+Comments:
+
+robustness of procedure
+each task would be taken up unknowingly by 3-5 agents.
+the most suitable completion would be selected as completed by the task provider.
